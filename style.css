@@ -1,0 +1,213 @@
+
+*{
+    margin: 2;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+     
+    width: 100%;  
+    min-height: 455px;
+    background-image:url('complaint.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 1% ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right; 
+    background-color: hwb(0 68% 23% / 0.877);
+}
+.h9{
+    background-color: hwb(0 68% 23% / 0.877);
+    list-style: none;
+    display: inline-block;
+    padding: 9px 12px;
+    position: relative;
+    font-size: 16px;
+ }
+
+.nav-links a{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links a{
+    color:rgb(17, 17, 17);
+    text-decoration: none;
+    font-size: 16px;
+}
+   
+.nav-links a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background:rgb(209, 25, 25);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links a:hover::after{
+    width: 100%;
+}
+
+.column{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.row{
+    flex-basis: 30%;
+    background: #db8888;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding: 18px 15px;
+    box-sizing:border-box;
+}
+
+.row:hover{
+    box-shadow: 10px 10px 10px 10px rgb(41, 46, 48);
+
+}
+
+.user{
+        width: 100%;  
+        min-height: 1000px;
+        background-image:url('userpic.jpg');
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        
+}
+
+.first{
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+    background-color: hwb(0 70% 17% / 0.877);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.login{
+    padding: 60px;   
+}    
+
+.btn {
+    background-color: rgb(242, 244, 247);
+    border: none;
+    color: rgb(27, 26, 26);
+    padding: 10px;
+    font-size: 15px;
+    float: right;
+  }
+.btn:hover {
+    background-color: rgb(131, 145, 187);
+  }
+.login-form{
+    display: block;
+    color: rgb(14, 13, 13);
+    margin: 10px;
+    font-size:22px;
+    margin: 35px 30%;
+    height: 370px;
+}
+form{
+    
+    box-sizing:border-box;
+    background: rgba(15, 15, 15, 0.5);
+    border: 1px solid rgb(10, 10, 10);
+    width: 40%;
+    margin: 15px 10px;
+    padding: 10px 29px;
+}
+
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0 8px;
+    display: inline-block;
+    border: 1px solid rgb(7, 7, 7);
+    box-sizing: border-box;
+}
+ 
+.link{
+   display: inline-block;
+   text-decoration: none;
+   color:rgb(10, 3, 3);
+   border: 2px solid rgb(19, 19, 19);
+   padding:12px 40px;
+   font-size: 13px;
+   text-align: left;
+}
+.link:hover{
+    border: 1px solid #0e0c0c;
+    background: rgb(18, 146, 97);
+}
+.register{
+    width: 100%;  
+    min-height: 1000px;
+    background-image:url('register3.jpg');
+    background-position: center;
+    background-size: cover;
+    font-size:24px;
+    color:#ebebf0
+}
+
+.register-form{
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+.reg{
+    display: inline-block;
+    color:rgb(20, 20, 20);
+    border: 2px solid rgb(19, 19, 19);
+    background: rgb(53, 114, 155);
+    padding:12px 40px;
+    font-size: 17px;
+    text-align: left;
+}
+
+.reg:hover{
+    border: 1px solid #08080c;
+    background: rgb(18, 146, 97);
+
+}
+
+.clear{
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(14, 15, 15);
+    border: 2px solid rgb(19, 19, 19);
+    background: rgb(53, 114, 155);
+    padding:12px 40px;
+    font-size: 19px;
+    text-align: left;
+}
+.clear:hover{
+    border: 1px solid #08080c;
+    background: rgb(18, 146, 97);
+    
+    
+}
+
+
+
+
